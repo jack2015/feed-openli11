@@ -185,9 +185,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: 713dad6bf7a1da2c48e7cfb2e855b6e6
-SHA256sum: a7f1b4722ec1cf0bc9ea6bbbe9955b90e7b4a8ffa697f822f9fd98a03d105ec9
-Size: 17084
+MD5Sum: 6ad4eefd35a606b270da52badbb5bc43
+SHA256sum: 9d1c9861d80804c0d425a715f03dfb9e0435c11fe3710c556fc3767997dd3cda
+Size: 17162
 Filename: dm900-branding-dbg_git42+4acb6b3-r0_dm900.ipk
 Source: dm900-branding.bb
 Description: dm900-branding version gitAUTOINC+4acb6b360c-r0 - Debugging files
@@ -202,8 +202,8 @@ Recommends: glibc-dev, python-dev
 Section: devel
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: 7ea379600b3f5abc4986a1c9849e9e9a
-SHA256sum: 887e31010acda7a603c983d33b5dcd4f9a89fc96b4a9edf34e651af03b1c74b5
+MD5Sum: ae6ee6152b843a5c9417fd156935e819
+SHA256sum: 1566f32dffd429ec1b322ffed3514bb9b0c0ca3d7db4c8334214322da1ec9b5f
 Size: 720
 Filename: dm900-branding-dev_git42+4acb6b3-r0_dm900.ipk
 Source: dm900-branding.bb
@@ -218,9 +218,9 @@ Depends: libc6 (>= 2.34)
 Section: base
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: 60d9c23abee5e8f052a596b1368a93a8
-SHA256sum: 46516b605476319a9d92deac9460ae27c97cb41ef9a07e3c31f74181a445f375
-Size: 5070
+MD5Sum: 06ac8963a88a6d491cd1f55d878a69c8
+SHA256sum: ab3b25528c376b32ec6006c5750ac388103bf216b831e800be7cfa3d360a44e0
+Size: 5066
 Filename: dm900-branding_git42+4acb6b3-r0_dm900.ipk
 Source: dm900-branding.bb
 Description: dm900-branding version gitAUTOINC+4acb6b360c-r0
@@ -330,8 +330,8 @@ Version: git274+8b0a3f6-r0
 Section: base
 Architecture: dm900
 Maintainer: oe-aliance
-MD5Sum: 33548ac087eda792153f5d0938a7f100
-SHA256sum: 5d6da0e0cb2a148bd00e681403e52fb83b912e19e4b80809980c87d854f38041
+MD5Sum: 0d3f757dd1b2a07bf075dcae15699e1d
+SHA256sum: 288d7962b9a1b0e75fc5aca7f94d8261484890e3c9c0df52db265d0517460718
 Size: 1562
 Filename: enigma2-display-skins-meta_git274+8b0a3f6-r0_dm900.ipk
 Source: enigma2-display-skins.bb
@@ -345,204 +345,12 @@ Version: git274+8b0a3f6-r0
 Section: base
 Architecture: dm900
 Maintainer: oe-aliance
-MD5Sum: ed8c6dafb36f1473274137b156941aa3
-SHA256sum: 9c6c739536613d6c5807c4292ed2bf12a6790a3a98942c1209e2d7f65cb7e03b
+MD5Sum: 3616079b782e63fac9b30df005fe155b
+SHA256sum: 1f6c7c7a7fb618f3676a12cc2c912b8f220a21a322c7a7988e90b0991f5c2fea
 Size: 586
 Filename: enigma2-display-skins_git274+8b0a3f6-r0_dm900.ipk
 Source: enigma2-display-skins.bb
 Description: Display Skins for Enigma2
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-10
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: a7e4b780eb7f7acee42cbebea398d2e3
-SHA256sum: 2bdda11a04f08f15e03ff96b020f69711eeba2f48284952fbbd12aec29549788
-Size: 22142
-Filename: enigma2-plugin-display-oe-a-lcdskin-10_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-10
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-11
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: b0f22e4499f0342940c890900c207827
-SHA256sum: 5b6ecc4aef2afe40d5aa92d0dcd824fcbd722409753ea870b847edcbd279a60e
-Size: 71438
-Filename: enigma2-plugin-display-oe-a-lcdskin-11_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-11
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-12
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: 937188fe7ac5b11633ae92d7e25e3311
-SHA256sum: 4b1e278d3b61a85956b329c34640bb27626a73b76ab9d821aa93a14946441e50
-Size: 53954
-Filename: enigma2-plugin-display-oe-a-lcdskin-12_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-12
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-1
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: fbf8bfd6d38be6e2d717f927765def2e
-SHA256sum: b9a5b1f557b7da0cd795d4ea56a424b0990b659d5f90230a4f8060fd96f3b838
-Size: 15368
-Filename: enigma2-plugin-display-oe-a-lcdskin-1_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-1
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-2
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: a76c5f87275e8ed670ed5da547c6ef3e
-SHA256sum: c3223d3570255df988cb6d3831636db6fa31af7d942b3f58185e8e6381ea91b3
-Size: 15212
-Filename: enigma2-plugin-display-oe-a-lcdskin-2_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-2
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-3
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: 3c6a16ff69285fcc9242a1492a05c6f6
-SHA256sum: 967fee58ea761d12355c5d79cad64ecfa73196003dedcfd74c0a0f4147110dd8
-Size: 18476
-Filename: enigma2-plugin-display-oe-a-lcdskin-3_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-3
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-4
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: 669e77be3694b84e440fe075f4d34ce9
-SHA256sum: a930fa3eb41d6a800c6ff9640a6328b58dad4ec22ff715fbc0cdfc96ec659231
-Size: 14544
-Filename: enigma2-plugin-display-oe-a-lcdskin-4_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-4
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-5
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: a2a50007fdc7277c077810d72dfa6ea1
-SHA256sum: 48168e24bfd64487f69683b82026c30f4edf9b6761174d81049d375b2743108b
-Size: 27636
-Filename: enigma2-plugin-display-oe-a-lcdskin-5_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-5
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-6
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: fcf690e1566e5b170d66bb8ac636e8c7
-SHA256sum: d3ad1ae378e5b30c87f2803ffe06bf4d4eee98df0edbf5757e90d6eef25f2f72
-Size: 10940
-Filename: enigma2-plugin-display-oe-a-lcdskin-6_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-6
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-7
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: 1ca2384e4e5151a4070ace3750d20bb2
-SHA256sum: 809194188aeddaf059748cbfe84da90ad2f590cb8ce04ec4270a0a6b50f54238
-Size: 15564
-Filename: enigma2-plugin-display-oe-a-lcdskin-7_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-7
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-8
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: feb754359d4531f36c427a364e0d42ea
-SHA256sum: 38f90ff86d83462fdae5c12a83ba02649aa42744e8f02361e73da6b6cc684c42
-Size: 17716
-Filename: enigma2-plugin-display-oe-a-lcdskin-8_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-8
-OE: enigma2-display-skins
-License: Proprietary
-Priority: optional
-
-Package: enigma2-plugin-display-oe-a-lcdskin-9
-Version: git274+8b0a3f6-r0
-Depends: enigma2-display-skins
-Section: base
-Architecture: dm900
-Maintainer: oe-aliance
-MD5Sum: 617f685e6ab6999f1120ac4fc0da20b5
-SHA256sum: d5a7e6610313b17ccb5130a8f0dea43a640ebe3d3c104c04353ee7752de60ce9
-Size: 25228
-Filename: enigma2-plugin-display-oe-a-lcdskin-9_git274+8b0a3f6-r0_dm900.ipk
-Source: enigma2-display-skins.bb
-Description: Enigma2 Display Skin: oe-a-lcdskin-9
 OE: enigma2-display-skins
 License: Proprietary
 Priority: optional
@@ -727,6 +535,442 @@ OE: enigma2-plugin-extensions-openwebif
 License: GPLv2+
 Priority: optional
 
+Package: enigma2-plugin-extensions-screenposition-dbg
+Version: 2.0+git10+025fa1e-r1
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e2684e526bc489d43798b679b9e60605
+SHA256sum: 82aed5a519e141719c7e53a03da28a9913774dfec8098a730ec1ad9086da204c
+Size: 720
+Filename: enigma2-plugin-extensions-screenposition-dbg_2.0+git10+025fa1e-r1_dm900.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+025fa1e42a-r1 - Debugging files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dev
+Version: 2.0+git10+025fa1e-r1
+Depends: enigma2-plugin-extensions-screenposition (= 2.0+git10+025fa1e-r1)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 67fd864fc4eeedcf4d5c0cfc1b1db97c
+SHA256sum: 6a84da7d38ed1d337ec214e4c6b583e52b2bad420c8eedf07f1ab624e4609dd2
+Size: 772
+Filename: enigma2-plugin-extensions-screenposition-dev_2.0+git10+025fa1e-r1_dm900.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+025fa1e42a-r1 - Development files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-src
+Version: 2.0+git10+025fa1e-r1
+Depends: enigma2-plugin-extensions-screenposition
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a45546895d51d7528dbc10fd8a21daa4
+SHA256sum: fe3b11ddac92a9789608fd7380ea342fa87e4f13575f03db5c372f086342dcdf
+Size: 2270
+Filename: enigma2-plugin-extensions-screenposition-src_2.0+git10+025fa1e-r1_dm900.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+025fa1e42a-r1 - Source files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition
+Version: 2.0+git10+025fa1e-r1
+Depends: python-core
+Replaces: enigma2-plugin-pli-screenposition
+Conflicts: enigma2-plugin-pli-screenposition
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 39f4f739231ffecdf16fb5e8b4005e02
+SHA256sum: 12998a87ac6467e405b0d0fc31fea901bfe7197ef724ced853ab5e9ab9385d8b
+Size: 3026
+Filename: enigma2-plugin-extensions-screenposition_2.0+git10+025fa1e-r1_dm900.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+025fa1e42a-r1
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dbg
+Version: 0.2+git20+d27a15e-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 30d71b94cf02d34ce1e180a894ca7480
+SHA256sum: 6d2cf70bb63807cdf9f834c21a21298d480e08e056e457134c22eb939081c8a4
+Size: 734
+Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git20+d27a15e-r0_dm900.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+d27a15e2d1-r0 - Debugging files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dev
+Version: 0.2+git20+d27a15e-r0
+Depends: enigma2-plugin-extensions-shootyourscreen (= 0.2+git20+d27a15e-r0)
+Recommends: aio-grab-dev, python-core-dev, python-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 626157e96e8344097a3e29c99751752d
+SHA256sum: 2bf5ecdd166b61e3e3e9d1825ee77f8e9a6a66d815e701c4c247f1b63ed14ad6
+Size: 792
+Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git20+d27a15e-r0_dm900.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+d27a15e2d1-r0 - Development files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-src
+Version: 0.2+git20+d27a15e-r0
+Depends: enigma2-plugin-extensions-shootyourscreen
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 008ac73b62353a48dba45063de28dbd2
+SHA256sum: dc46b6d9824a5c69b2f4dec86e7149f04d86aa40231b05dd3774e43427a4bb18
+Size: 4256
+Filename: enigma2-plugin-extensions-shootyourscreen-src_0.2+git20+d27a15e-r0_dm900.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+d27a15e2d1-r0 - Source files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen
+Version: 0.2+git20+d27a15e-r0
+Depends: aio-grab, python-core
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 29e1f917cecb71ad6ca2e29740deae78
+SHA256sum: c43528c36b21131e2d630091a54ec9dbc206aa5a9b2a4d480ee99ced4277b74b
+Size: 9308
+Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git20+d27a15e-r0_dm900.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+d27a15e2d1-r0
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-10
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: 3df221af1a39430536497db0554cab2f
+SHA256sum: 1763101ad2f6b0476f0dde79279b7a774823c3a4880d523d62f0229c52525f52
+Size: 22150
+Filename: enigma2-plugin-skins-oe-a-lcdskin-10_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-10
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-11
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: 15e129030b1b260837f4e9f4137418c9
+SHA256sum: 95a8283776b5a1a508c6aa9761de5b346e1092043632912d6a633560556e68ff
+Size: 71438
+Filename: enigma2-plugin-skins-oe-a-lcdskin-11_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-11
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-12
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: 2a3592c08ce89f23f2c1008dcdc4ba96
+SHA256sum: 62f75e3ef671a2a61687111497262b557b0741814136cc94b2614649e382dcbd
+Size: 53962
+Filename: enigma2-plugin-skins-oe-a-lcdskin-12_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-12
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-1
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: ff51b74c47a9d57822303d33eeceb42b
+SHA256sum: 7638fec42ab1ddf27675ea451107f4a4e293755b22a5e69dfe6e38535e7e2e03
+Size: 15368
+Filename: enigma2-plugin-skins-oe-a-lcdskin-1_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-1
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-2
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: f4f99dce34e127937b3920e99d28da2f
+SHA256sum: 3ccbe6feb855ac3ad5a77a60f6631ca1d98cd32e8eaf840d6043491e6b49db9f
+Size: 15218
+Filename: enigma2-plugin-skins-oe-a-lcdskin-2_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-2
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-3
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: dad779524ea038e73a0ec97d5fe4e5ca
+SHA256sum: 352b1cf7d7904bf2c060611716c244aa4693e40f5fe21efe263835e33fa01acb
+Size: 18474
+Filename: enigma2-plugin-skins-oe-a-lcdskin-3_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-3
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-4
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: 84bc8ccf817bcdf4d0dd44910384ce56
+SHA256sum: 6e7d6aca4989027834a07b152fea1cc34d5cde542cdbb2905e380287659d3c9f
+Size: 14546
+Filename: enigma2-plugin-skins-oe-a-lcdskin-4_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-4
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-5
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: d53f6acf6977cb154f6c67178973c2bd
+SHA256sum: 149d8bb6a7bc21dd0c8d9bdee9599609c39164c30d748d1d3ebcc42f815f6e1d
+Size: 27636
+Filename: enigma2-plugin-skins-oe-a-lcdskin-5_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-5
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-6
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: 41d2d5d0b7594d7398d57e5855e8b0c6
+SHA256sum: 5a6f23d4e104faf6eaf59610d6b791cb91fe1765ad2842c7bc17b5d5971cc1b5
+Size: 10950
+Filename: enigma2-plugin-skins-oe-a-lcdskin-6_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-6
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-7
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: b65bc2ba861b28bbe43efd8c62415eb2
+SHA256sum: ff42bf39ffd2e4161118dd3661c91f6db908924d8c17dd5ae74aec21df634fe1
+Size: 15570
+Filename: enigma2-plugin-skins-oe-a-lcdskin-7_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-7
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-8
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: 7ef1410fe98a726c5fb8b456d50bcbd5
+SHA256sum: 870f0b5132a45c088432040fd2d088c7e98e5729f31a870476e19a12aee08bc9
+Size: 17718
+Filename: enigma2-plugin-skins-oe-a-lcdskin-8_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-8
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-oe-a-lcdskin-9
+Version: git274+8b0a3f6-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm900
+Maintainer: oe-aliance
+MD5Sum: 1ef8223e1ada863e33d0fe653813c6c2
+SHA256sum: ffd669dad9355c6601e322c373d6416c0e7caf0b32939016520394cb89ba21cd
+Size: 25230
+Filename: enigma2-plugin-skins-oe-a-lcdskin-9_git274+8b0a3f6-r0_dm900.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-9
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-softcams-cccam-v232-arm-dbg
+Version: 2.3.2-r0
+Recommends: glibc-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f101082c4ff1b5ba5310566107646a4e
+SHA256sum: 79556fd5ec9f50562d12be09de69d03bb2395cf357408291c28ae821f98346b4
+Size: 724
+Filename: enigma2-plugin-softcams-cccam-v232-arm-dbg_2.3.2-r0_dm900.ipk
+Source: enigma2-plugin-softcams-cccam-v232-arm.bb
+Description: CCcam Softcam for DM900 & DM920 Ver2.3.2 - Debugging files
+OE: enigma2-plugin-softcams-cccam-v232-arm
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-softcams-cccam-v232-arm-dev
+Version: 2.3.2-r0
+Depends: enigma2-plugin-softcams-cccam-v232-arm (= 2.3.2-r0)
+Recommends: glibc-dev, libstdc++-dev, libxcrypt-compat-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 55584bce3d17904e7bb099da9ce86ecc
+SHA256sum: 558981a383d597dfce37ac5c1e738b8385d2a4bf661e891c1ae195dd9c5a8a5c
+Size: 764
+Filename: enigma2-plugin-softcams-cccam-v232-arm-dev_2.3.2-r0_dm900.ipk
+Source: enigma2-plugin-softcams-cccam-v232-arm.bb
+Description: CCcam Softcam for DM900 & DM920 Ver2.3.2 - Development files
+OE: enigma2-plugin-softcams-cccam-v232-arm
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-softcams-cccam-v232-arm
+Version: 2.3.2-r0
+Depends: libc6 (>= 2.34), libstdc++6 (>= 11.2.0), libxcrypt-compat
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 489c6f6881d73c9e8b6bee1464582ad4
+SHA256sum: 2f9affb9e3ad837c7f48a7daace9adc2414a8eaf030293220100a4b2b840f493
+Size: 224062
+Filename: enigma2-plugin-softcams-cccam-v232-arm_2.3.2-r0_dm900.ipk
+Source: enigma2-plugin-softcams-cccam-v232-arm.bb
+Description: CCcam Softcam for DM900 & DM920 Ver2.3.2
+OE: enigma2-plugin-softcams-cccam-v232-arm
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-softcams-cccam-v238-arm-dbg
+Version: 2.3.8-r0
+Recommends: glibc-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61ab54e23f783f9fe24f675b7d6edde3
+SHA256sum: ed534c4ac01aa435603c9f1a4e9e493209047d00995713243d9562d7d326851b
+Size: 728
+Filename: enigma2-plugin-softcams-cccam-v238-arm-dbg_2.3.8-r0_dm900.ipk
+Source: enigma2-plugin-softcams-cccam-v238-arm.bb
+Description: CCcam Softcam for DM900 & DM920 Ver2.3.8 - Debugging files
+OE: enigma2-plugin-softcams-cccam-v238-arm
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-softcams-cccam-v238-arm-dev
+Version: 2.3.8-r0
+Depends: enigma2-plugin-softcams-cccam-v238-arm (= 2.3.8-r0)
+Recommends: glibc-dev, libstdc++-dev, libxcrypt-compat-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 307beba1840f505e2650a2985ec34639
+SHA256sum: e595177c9ef200ea47191dd59a65ac5d4298e21f07d58bd1c115b75ee55b70fd
+Size: 766
+Filename: enigma2-plugin-softcams-cccam-v238-arm-dev_2.3.8-r0_dm900.ipk
+Source: enigma2-plugin-softcams-cccam-v238-arm.bb
+Description: CCcam Softcam for DM900 & DM920 Ver2.3.8 - Development files
+OE: enigma2-plugin-softcams-cccam-v238-arm
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-softcams-cccam-v238-arm
+Version: 2.3.8-r0
+Depends: libc6 (>= 2.34), libstdc++6 (>= 11.2.0), libxcrypt-compat
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5daa7a6e2eec7751c6f765c9096cb99
+SHA256sum: baea0edfa6a666fe082d452444787950863d186660ceca65806e1bd499a2020b
+Size: 224082
+Filename: enigma2-plugin-softcams-cccam-v238-arm_2.3.8-r0_dm900.ipk
+Source: enigma2-plugin-softcams-cccam-v238-arm.bb
+Description: CCcam Softcam for DM900 & DM920 Ver2.3.8
+OE: enigma2-plugin-softcams-cccam-v238-arm
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-softcams-mgcamd-v135a-arm
+Version: 1.35a-r0
+Depends: enigma2-plugin-softcams-libcrypto-compat, libc6 (>= 2.34), libgcc1 (>= 11.2.0), libxcrypt-compat, libz1 (>= 1.2.11)
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a19af07082bae02418805b176b50035
+SHA256sum: e21197518da025944d0d7ab07b01a7b75e2866efa3a792c24a3c72240dd631f8
+Size: 288222
+Filename: enigma2-plugin-softcams-mgcamd-v135a-arm_1.35a-r0_dm900.ipk
+Source: enigma2-plugin-softcams-mgcamd-v135a-arm.bb
+Description: mgcamd softcam for DM900 & DM920 1.35a
+OE: enigma2-plugin-softcams-mgcamd-v135a-arm
+License: GPLv2+
+Priority: optional
+
 Package: enigma2-plugin-softcams-oscam
 Version: 11704-r798
 Depends: libc6 (>= 2.34), libcrypto1.1 (>= 1.1.1l), libssl1.1 (>= 1.1.1l)
@@ -740,6 +984,84 @@ Filename: enigma2-plugin-softcams-oscam_11704-r798_dm900.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: Oscam Softcam for dm900
 OE: enigma2-plugin-softcams-oscam
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dbg
+Version: 0.6+git47+1a190ec-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eb65c7fa6c24d86b433a83620a3523f2
+SHA256sum: 6f172be003fc1fd320e625a58d13d7eed232089e668fbe1cc999b8b8d508ecad
+Size: 726
+Filename: enigma2-plugin-systemplugins-autoshutdown-dbg_0.6+git47+1a190ec-r0_dm900.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+1a190ec7a7-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dev
+Version: 0.6+git47+1a190ec-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown (= 0.6+git47+1a190ec-r0)
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c0f789f7e01e7289dc3fd2d34c206c57
+SHA256sum: 1663107745ac66bbaf394acf282b8ca20313d710b6f27b8147f15b6cd6b801bb
+Size: 754
+Filename: enigma2-plugin-systemplugins-autoshutdown-dev_0.6+git47+1a190ec-r0_dm900.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+1a190ec7a7-r0 - Development files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-src
+Version: 0.6+git47+1a190ec-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbc01e615369d40e7af9446846931d6c
+SHA256sum: 57f5b3cfe7ca64b4701a52de03a545b7701498c78a212b71a7bfcc04f9a43c68
+Size: 6038
+Filename: enigma2-plugin-systemplugins-autoshutdown-src_0.6+git47+1a190ec-r0_dm900.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+1a190ec7a7-r0 - Source files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown
+Version: 0.6+git47+1a190ec-r0
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7233668549136f7ee23f5896e1c3926f
+SHA256sum: d4333f109381484ca0835438dea7d5be0c43b23abf076b1e39bee51026d406d2
+Size: 20984
+Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git47+1a190ec-r0_dm900.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+1a190ec7a7-r0
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-exteplayer3
+Version: 1.0-r0
+Recommends: exteplayer3, ffmpeg
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 248910ca3f7f22ccb1a5076de63e124f
+SHA256sum: 5ebbdde89d92df129d50884624cedf55be70e15e3a2cf56bf109002473caae27
+Size: 654
+Filename: enigma2-plugin-systemplugins-exteplayer3_1.0-r0_dm900.ipk
+Source: enigma2-plugin-systemplugins-exteplayer3.bb
+Description: Movie Player for E2 using the ffmpeg solution
+OE: enigma2-plugin-systemplugins-exteplayer3
 License: GPLv2+
 Priority: optional
 
@@ -1467,6 +1789,186 @@ Filename: kernel-module-8021q-3.14-1.17-dm900_3.14-r0_dm900.ipk
 Source: linux-dreambox_3.14.bb
 Description: 8021q kernel module
 OE: linux-dreambox
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8188eu-3.14-1.17-dm900
+Version: 1.0-.0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8188eu
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: efbba2349f499e1b7948e440c58b0722
+SHA256sum: e0911bcc5e2b05098101e5e0fce189fadf363068a5c6726b3c18be61281747fb
+Size: 262402
+Filename: kernel-module-8188eu-3.14-1.17-dm900_1.0-.0_dm900.ipk
+Source: rtl8188eu.bb
+Description: 8188eu kernel module
+OE: rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8189es-3.14-1.17-dm900
+Version: 1.0-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8189es
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d3fa50a1a79665710667080df9c914be
+SHA256sum: 6d1233f7b723f9e8723ec69cdab06ffd898b8e1e9b505e61879df7f45a27a0fc
+Size: 355846
+Filename: kernel-module-8189es-3.14-1.17-dm900_1.0-r0_dm900.ipk
+Source: rtl8189es_1.0.bb
+Description: 8189es kernel module
+OE: rtl8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192cu-3.14-1.17-dm900
+Version: 4.0.2-9000
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8192cu
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8d427112d7456da448ec794d2b741c5c
+SHA256sum: 9b300a627874335a7737d7625c5f2f6fe1a2d4851c382e87be2ae55ea1524a4a
+Size: 168774
+Filename: kernel-module-8192cu-3.14-1.17-dm900_4.0.2-9000_dm900.ipk
+Source: rtl8192cu_4.0.2_9000.bb
+Description: 8192cu kernel module
+OE: rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-3.14-1.17-dm900
+Version: 1.0+git23+deae95d-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8192eu
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cd0a127584309b27353f65c548eab0f5
+SHA256sum: 1ab34f99ddc82b93659bcd161a0a953114ae2796908e3485e485e323dac7e82e
+Size: 505364
+Filename: kernel-module-8192eu-3.14-1.17-dm900_1.0+git23+deae95d-r0_dm900.ipk
+Source: rtl8192eu.bb
+Description: 8192eu kernel module
+OE: rtl8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192fu-3.14-1.17-dm900
+Version: 1.0-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8192fu
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a18dde94b54b8403368c0b8ea550bfc6
+SHA256sum: c9abad1b0569750e13004f9b5b1b2150cf9aee52e759dcab9a8622675d504334
+Size: 610104
+Filename: kernel-module-8192fu-3.14-1.17-dm900_1.0-r0_dm900.ipk
+Source: rtl8192fu.bb
+Description: 8192fu kernel module
+OE: rtl8192fu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8723au-3.14-1.17-dm900
+Version: 4.1.6-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8723au
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef8af4521e22a701d587336f9e5e0578
+SHA256sum: 4c07de36279a9da74dba3523939e4c4ed90e4cacde2b1a85d122a343d700798f
+Size: 306000
+Filename: kernel-module-8723au-3.14-1.17-dm900_4.1.6-r0_dm900.ipk
+Source: rtl8723a_4.1.6.bb
+Description: 8723au kernel module
+OE: rtl8723a
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8812au-3.14-1.17-dm900
+Version: 5.1.5-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8812au
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c0cd7728e5c9783449377465362a18d
+SHA256sum: d3b5e8113d5b551edf29f5cee610ff6db2dddd9833f229479692a3bcfd36dc7b
+Size: 416774
+Filename: kernel-module-8812au-3.14-1.17-dm900_5.1.5-r0_dm900.ipk
+Source: rt8812au_5.1.5.bb
+Description: 8812au kernel module
+OE: rt8812au
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8814au-3.14-1.17-dm900
+Version: 4.3.21-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8814au
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a06143c921a4f2f5e76f66888647f05d
+SHA256sum: bee004136bebaa2eb68d4960da610780d16e47447d3baace818480b6f3955ca5
+Size: 383650
+Filename: kernel-module-8814au-3.14-1.17-dm900_4.3.21-r0_dm900.ipk
+Source: rtl8814au_4.3.21.bb
+Description: 8814au kernel module
+OE: rtl8814au
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8821cu-3.14-1.17-dm900
+Version: 5.8.1-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-8821cu
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94c65b57e2a68db0fee7a02e6e8b5a6a
+SHA256sum: e8b4816fed998005cdc67c13d2efc66c7ead8e1492459661a8894a1c89ffc0e3
+Size: 718630
+Filename: kernel-module-8821cu-3.14-1.17-dm900_5.8.1-r0_dm900.ipk
+Source: rt8821cu_5.8.1.bb
+Description: 8821cu kernel module
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-88x2bu-3.14-1.17-dm900
+Version: 1.0.0.9-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-88x2bu
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 302fa45bcbfed07912de1177ab4437dd
+SHA256sum: e7b2356a56ae610ae78afb6e43e6ba0c1740e223e73e0e615bc8c8cbbd255470
+Size: 578828
+Filename: kernel-module-88x2bu-3.14-1.17-dm900_1.0.0.9-r0_dm900.ipk
+Source: rt8822bu_1.0.0.9.bb
+Description: 88x2bu kernel module
+OE: rt8822bu
+HomePage: http://www.realtek.com.tw
 License: GPLv2
 Priority: optional
 
@@ -9664,6 +10166,42 @@ OE: linux-dreambox
 License: GPLv2
 Priority: optional
 
+Package: kernel-module-mt7601usta-3.14-1.17-dm900
+Version: 3.0.0.4-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-mt7601usta
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d001af42593977b854ea0ca0dc29586
+SHA256sum: d20444ca257b9b95186321ba805bbed4e8f125f13fdc7792b8c1631ecfaafa90
+Size: 310262
+Filename: kernel-module-mt7601usta-3.14-1.17-dm900_3.0.0.4-r0_dm900.ipk
+Source: mt7601u_3.0.0.4.bb
+Description: mt7601usta kernel module
+OE: mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mt7650u-sta-3.14-1.17-dm900
+Version: 3.0.0.2-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-mt7650u-sta
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 10f549fd3cd29863430c7d3444dafdd1
+SHA256sum: 03a35f76054f0425babc51cd273a790e20aeddb905bc34362cbe8e020136ac3a
+Size: 337070
+Filename: kernel-module-mt7650u-sta-3.14-1.17-dm900_3.0.0.2-r0_dm900.ipk
+Source: mt7610u_3.0.0.2.bb
+Description: mt7650u-sta kernel module
+OE: mt7610u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
 Package: kernel-module-mt9v011-3.14-1.17-dm900
 Version: 3.14-r0
 Depends: kernel-3.14-1.17-dm900
@@ -12299,6 +12837,24 @@ OE: linux-dreambox
 License: GPLv2
 Priority: optional
 
+Package: kernel-module-r8723bs-3.14-1.17-dm900
+Version: 4.4.1-3.14-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-r8723bs
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e688be057348af17e93099a899ac6c34
+SHA256sum: 3526b93190c45dfe37ddf53bbadd3f0fe20d4b5d060a159ce147d2c65c5cba00
+Size: 409740
+Filename: kernel-module-r8723bs-3.14-1.17-dm900_4.4.1-3.14-r0_dm900.ipk
+Source: rtl8723bs_4.4.1.bb
+Description: r8723bs kernel module
+OE: rtl8723bs
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
 Package: kernel-module-radio-keene-3.14-1.17-dm900
 Version: 3.14-r0
 Depends: kernel-3.14-1.17-dm900
@@ -14407,6 +14963,59 @@ OE: linux-dreambox
 License: GPLv2
 Priority: optional
 
+Package: kernel-module-rt3573sta-3.14-1.17-dm900
+Version: 2.5.0.0-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-rt3573sta
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7348aa2acd9db36f42e97a3a3690bdb6
+SHA256sum: 08ce989b51b432c8759f5ecfb43e7f36709e7ab9f646326bcc68ba004e53aa47
+Size: 267716
+Filename: kernel-module-rt3573sta-3.14-1.17-dm900_2.5.0.0-r0_dm900.ipk
+Source: rt3573_2.5.0.0.bb
+Description: rt3573sta kernel module
+OE: rt3573
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt5370sta-3.14-1.17-dm900
+Version: 2.5.0.4-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-rt5370sta
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c7378e6aaa0c91c30dfcfadcaf3c16e3
+SHA256sum: f470464f5ebc77fc9819eac9a9812edfeaed6624335cc6e4f166e88c660d0b3b
+Size: 288926
+Filename: kernel-module-rt5370sta-3.14-1.17-dm900_2.5.0.4-r0_dm900.ipk
+Source: rt3070_2.5.0.4.bb
+Description: rt5370sta kernel module
+OE: rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-rt5572sta-3.14-1.17-dm900
+Version: 2.6.1.3-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-rt5572sta
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb6a2210ff90c9213fb921ac9257d33e
+SHA256sum: ffbd7e37fa043458c3c43517f21aa73ec8b4ba3bf331b49b8521629c8a61186a
+Size: 316810
+Filename: kernel-module-rt5572sta-3.14-1.17-dm900_2.6.1.3-r0_dm900.ipk
+Source: rt5572_2.6.1.3.bb
+Description: rt5572sta kernel module
+OE: rt5572
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
 Package: kernel-module-rt73usb-3.14-1.17-dm900
 Version: 3.14-r0
 Depends: kernel-3.14-1.17-dm900, kernel-module-crc-itu-t-3.14-1.17-dm900, kernel-module-rt2x00lib-3.14-1.17-dm900, kernel-module-rt2x00usb-3.14-1.17-dm900
@@ -14422,6 +15031,24 @@ Source: linux-dreambox_3.14.bb
 Description: rt73usb kernel module
 OE: linux-dreambox
 License: GPLv2
+Priority: optional
+
+Package: kernel-module-rtk-btusb-3.14-1.17-dm900
+Version: git-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-rtk-btusb
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 30bdb1ac888e8a64395532d183e7bf3a
+SHA256sum: 7c179a1e3282a1389822284c1d6aa66fd466556808e4aa1c401d513d151fd5a1
+Size: 23190
+Filename: kernel-module-rtk-btusb-3.14-1.17-dm900_git-r0_dm900.ipk
+Source: rtk-btusb_git.bb
+Description: rtk-btusb kernel module
+OE: rtk-btusb
+HomePage: https://www.realtek.com/
+License: GPLv2+
 Priority: optional
 
 Package: kernel-module-rtl-pci-3.14-1.17-dm900
@@ -14523,6 +15150,24 @@ Filename: kernel-module-rtl8187-3.14-1.17-dm900_3.14-r0_dm900.ipk
 Source: linux-dreambox_3.14.bb
 Description: rtl8187 kernel module
 OE: linux-dreambox
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rtl8188fu-3.14-1.17-dm900
+Version: git-r0
+Depends: kernel-3.14-1.17-dm900
+Provides: kernel-module-rtl8188fu
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce6074d55b64c90f19d8fd8eb0f68c2a
+SHA256sum: 3f3eda599615ba4e36e44de729d181a94c5c01c8652ca6bdaf1b0bee34c46a5d
+Size: 415006
+Filename: kernel-module-rtl8188fu-3.14-1.17-dm900_git-r0_dm900.ipk
+Source: rt8188fu_git.bb
+Description: rtl8188fu kernel module
+OE: rt8188fu
+HomePage: http://www.realtek.com.tw
 License: GPLv2
 Priority: optional
 
@@ -19008,6 +19653,108 @@ HomePage: https://www.yoctoproject.org/
 License: GPLv2
 Priority: optional
 
+Package: mt7601u-dbg
+Version: 3.0.0.4-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf135addeca7102e298444b12f8d7b06
+SHA256sum: fa7b78139ca93a191a048de2c6ddaa030dc57fa17086c63e90faf32990cef43b
+Size: 688
+Filename: mt7601u-dbg_3.0.0.4-r0_dm900.ipk
+Source: mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Debugging files
+OE: mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: mt7601u-dev
+Version: 3.0.0.4-r0
+Depends: mt7601u (= 3.0.0.4-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-mt7601usta-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 45deaa9d0e2af62e4e5ff9894731162e
+SHA256sum: da94f738b4774cf9b2b3e9b106fe10e5fbaef7cf72a824dec8dac49f30b109bb
+Size: 756
+Filename: mt7601u-dev_3.0.0.4-r0_dm900.ipk
+Source: mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Development files
+OE: mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: mt7601u
+Version: 3.0.0.4-r0
+Depends: kernel-module-mt7601usta-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 899e319b90d70d7fb787f2b91db25d4f
+SHA256sum: 5746c4e1c57a826920d3633a2ec43464baa6357b605adb0ce663bd311a1ddc27
+Size: 1648
+Filename: mt7601u_3.0.0.4-r0_dm900.ipk
+Source: mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4
+OE: mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: mt7610u-dbg
+Version: 3.0.0.2-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1a0af09b96cd5a853583843faff141a
+SHA256sum: e5d2842f7c8a9783e21fab6810845979efde26b3eca08fe2335a4064fceab1a0
+Size: 724
+Filename: mt7610u-dbg_3.0.0.2-r0_dm900.ipk
+Source: mt7610u_3.0.0.2.bb
+Description: mt7610u version 3.0.0.2-r0 - Debugging files
+OE: mt7610u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: mt7610u-dev
+Version: 3.0.0.2-r0
+Depends: mt7610u (= 3.0.0.2-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-mt7650u-sta-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bdb32d5376cb71764720b33533ae6ce4
+SHA256sum: af36ed0b0b637d791fb608b8899e48d8ee351eeb2a8e6921c6ae4fd934be7c3d
+Size: 794
+Filename: mt7610u-dev_3.0.0.2-r0_dm900.ipk
+Source: mt7610u_3.0.0.2.bb
+Description: mt7610u version 3.0.0.2-r0 - Development files
+OE: mt7610u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: mt7610u
+Version: 3.0.0.2-r0
+Depends: kernel-module-mt7650u-sta-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d92c4af1d4d1f0be144ff47697e03eb
+SHA256sum: 30eb4a19a72cb717c5168ed4ee84374ab07f43497529c7663ceb77ada348454b
+Size: 2080
+Filename: mt7610u_3.0.0.2-r0_dm900.ipk
+Source: mt7610u_3.0.0.2.bb
+Description: mt7610u version 3.0.0.2-r0
+OE: mt7610u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
 Package: openmultiboot-dbg
 Version: 1.3+git110+315c094-r0
 Recommends: freetype-dbg, glibc-dbg
@@ -19772,6 +20519,869 @@ Description: Command-line tools to flash and recover your Dreambox
 OE: recovery
 HomePage: http://dreamboxupdate.com/
 License: CLOSED
+Priority: optional
+
+Package: rt3070-dbg
+Version: 2.5.0.4-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 547681f1edab012366f95e49e371f403
+SHA256sum: 63d8d357a72f058fdb95cc862fe33c43e461a6d25a5c73931a957a5c5e995085
+Size: 710
+Filename: rt3070-dbg_2.5.0.4-r0_dm900.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Debugging files
+OE: rt3070
+License: GPLv2+
+Priority: optional
+
+Package: rt3070-dev
+Version: 2.5.0.4-r0
+Depends: rt3070 (= 2.5.0.4-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-rt5370sta-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f50f96098e374fa975207dc4102b8cd0
+SHA256sum: df5fb6bb6cb01ccb7fe4cecb15eab6f4236b706c12b40b12c9f2771b4381fbdc
+Size: 780
+Filename: rt3070-dev_2.5.0.4-r0_dm900.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Development files
+OE: rt3070
+License: GPLv2+
+Priority: optional
+
+Package: rt3070
+Version: 2.5.0.4-r0
+Depends: kernel-module-rt5370sta-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d0ad4640f05d18ff6e0f70f07c15ad7f
+SHA256sum: afc98425e10e8fb5f4133fcb206bed4364a9ec8a9e53dd1e04a5b2aa6d0cffcd
+Size: 1448
+Filename: rt3070_2.5.0.4-r0_dm900.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks
+OE: rt3070
+License: GPLv2+
+Priority: optional
+
+Package: rt3573-dbg
+Version: 2.5.0.0-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2bc310195beb71d282a472010ee0e6c7
+SHA256sum: c8941088700d8d1638b1090b647a8bbdfb0a7fb680e4126f02bc369e5183ad95
+Size: 694
+Filename: rt3573-dbg_2.5.0.0-r0_dm900.ipk
+Source: rt3573_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0 - Debugging files
+OE: rt3573
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt3573-dev
+Version: 2.5.0.0-r0
+Depends: rt3573 (= 2.5.0.0-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-rt3573sta-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: facaa1f8aafdcceb55bb3b3f7ab6db18
+SHA256sum: 7f14831a390e2f720d5f0aae8a743856af2b5a1125fd9667e2871ac6f0d4d8ec
+Size: 762
+Filename: rt3573-dev_2.5.0.0-r0_dm900.ipk
+Source: rt3573_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0 - Development files
+OE: rt3573
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt3573
+Version: 2.5.0.0-r0
+Depends: kernel-module-rt3573sta-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b598e06746823ef6d0b4a51f70507017
+SHA256sum: bf677e48701563c565f88d5f932bd4570ac0888b13a4dc99f8d5b914e00a8744
+Size: 1638
+Filename: rt3573_2.5.0.0-r0_dm900.ipk
+Source: rt3573_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0
+OE: rt3573
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt5572-dbg
+Version: 2.6.1.3-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 63ab2af4496ed99256fcb5dc6b38ba0f
+SHA256sum: 58e4b965d78ddd4f3892992e248d402109005ce3d8cc0da45a5d821e53bc76f8
+Size: 722
+Filename: rt5572-dbg_2.6.1.3-r0_dm900.ipk
+Source: rt5572_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3 - Debugging files
+OE: rt5572
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt5572-dev
+Version: 2.6.1.3-r0
+Depends: rt5572 (= 2.6.1.3-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-rt5572sta-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 293aff6029153005e73084a6481475d8
+SHA256sum: 3a2397419fade8f829affeda416d2a73c546096b2dded6c49207c9eb6465a92f
+Size: 788
+Filename: rt5572-dev_2.6.1.3-r0_dm900.ipk
+Source: rt5572_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3 - Development files
+OE: rt5572
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt5572
+Version: 2.6.1.3-r0
+Depends: kernel-module-rt5572sta-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b02de1e5ad0d29fd83cd889e1929aacb
+SHA256sum: d2125fabcd56489057e71e55851e68c4fba3b7e3a4415398fc1371f694ff0473
+Size: 1680
+Filename: rt5572_2.6.1.3-r0_dm900.ipk
+Source: rt5572_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3
+OE: rt5572
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8188fu-dbg
+Version: git-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 381786334b34232781b9e06afd914b13
+SHA256sum: 8edc8e508af877963320d013cf583b773e332f5d4ecb49012b129d7cfede6f19
+Size: 694
+Filename: rt8188fu-dbg_git-r0_dm900.ipk
+Source: rt8188fu_git.bb
+Description: Realtek rtl8188fu - Debugging files
+OE: rt8188fu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8188fu-dev
+Version: git-r0
+Depends: rt8188fu (= git-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-rtl8188fu-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 237e2a7ac88da495a06b8129c8398210
+SHA256sum: 4f20048c6e8c44b874e9f64645c8a707bd9f73c640f17c564dd48bd9f2a145bc
+Size: 758
+Filename: rt8188fu-dev_git-r0_dm900.ipk
+Source: rt8188fu_git.bb
+Description: Realtek rtl8188fu - Development files
+OE: rt8188fu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8188fu
+Version: git-r0
+Depends: kernel-module-rtl8188fu-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4826355cbbf9de39cadf18019ebba0c3
+SHA256sum: 04fdc15e4f687d5e6cdc42791d1a342c161b3752ad7fc6249bd28157b08d3712
+Size: 654
+Filename: rt8188fu_git-r0_dm900.ipk
+Source: rt8188fu_git.bb
+Description: Realtek rtl8188fu
+OE: rt8188fu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8812au-dbg
+Version: 5.1.5-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc7163a6a0c9887a968e812066af60a0
+SHA256sum: 766ee833b458666132f6e77da3a8578ccd44cac09b50ce9ab4758f900f8b85ac
+Size: 704
+Filename: rt8812au-dbg_5.1.5-r0_dm900.ipk
+Source: rt8812au_5.1.5.bb
+Description: Ralink 8812AU/8821AU v5.1.5 - Debugging files
+OE: rt8812au
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8812au-dev
+Version: 5.1.5-r0
+Depends: rt8812au (= 5.1.5-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8812au-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f3cbd186fc2f7eb17e88f6b8ce06283b
+SHA256sum: 6de83276aed06f007144b49c78298a040422e09aa4eedb744eb000f372c5b60b
+Size: 770
+Filename: rt8812au-dev_5.1.5-r0_dm900.ipk
+Source: rt8812au_5.1.5.bb
+Description: Ralink 8812AU/8821AU v5.1.5 - Development files
+OE: rt8812au
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8812au
+Version: 5.1.5-r0
+Depends: kernel-module-8812au-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc3514829c9c2072c596c5771b2fae3e
+SHA256sum: dd5a8c0adb64b1b8dbcfe94a1bac1604717dc656981284802687b271a5a7851e
+Size: 666
+Filename: rt8812au_5.1.5-r0_dm900.ipk
+Source: rt8812au_5.1.5.bb
+Description: Ralink 8812AU/8821AU v5.1.5
+OE: rt8812au
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8821cu-dbg
+Version: 5.8.1-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b4b7e98105b6c38aea35d63cd785d95
+SHA256sum: 084268fc0c1471540cee8fc16ee7e21230c598bc28a50680660eb8ca543d4d02
+Size: 724
+Filename: rt8821cu-dbg_5.8.1-r0_dm900.ipk
+Source: rt8821cu_5.8.1.bb
+Description: Linux Driver for RTL8821CU, RTL8811CU USB Wi-Fi NIC - Debugging files
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8821cu-dev
+Version: 5.8.1-r0
+Depends: rt8821cu (= 5.8.1-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8821cu-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 45c8724a7eb6a20876929e509ce0932d
+SHA256sum: f8160470af7a9cd0b80ec16db9065d267a792a2824f6462aca4204e93f838a0d
+Size: 790
+Filename: rt8821cu-dev_5.8.1-r0_dm900.ipk
+Source: rt8821cu_5.8.1.bb
+Description: Linux Driver for RTL8821CU, RTL8811CU USB Wi-Fi NIC - Development files
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8821cu
+Version: 5.8.1-r0
+Depends: kernel-module-8821cu-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 391ef8d6f75071463741bfe4b4624246
+SHA256sum: eed73c3a861248790e543a95a7fdf06072c4d6079a76c3338a0fd39df069db95
+Size: 692
+Filename: rt8821cu_5.8.1-r0_dm900.ipk
+Source: rt8821cu_5.8.1.bb
+Description: Linux Driver for RTL8821CU, RTL8811CU USB Wi-Fi NIC
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8822bu-dbg
+Version: 1.0.0.9-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 30610d4954b2d406bcdd82c9cb9a9a13
+SHA256sum: 383341616a4f46eef3409b7a0d742bbbf97118db4234bf316291e49444e03714
+Size: 702
+Filename: rt8822bu-dbg_1.0.0.9-r0_dm900.ipk
+Source: rt8822bu_1.0.0.9.bb
+Description: Ralink 88x2BU v1.0.0.9 - Debugging files
+OE: rt8822bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8822bu-dev
+Version: 1.0.0.9-r0
+Depends: rt8822bu (= 1.0.0.9-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-88x2bu-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 578388406f2cc86b2d93041403dcbe9f
+SHA256sum: 3e4d5f4df94156480e2c1f844b5bbafc95507f0069fad1ebdfec7f2bc82feb4c
+Size: 770
+Filename: rt8822bu-dev_1.0.0.9-r0_dm900.ipk
+Source: rt8822bu_1.0.0.9.bb
+Description: Ralink 88x2BU v1.0.0.9 - Development files
+OE: rt8822bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rt8822bu
+Version: 1.0.0.9-r0
+Depends: kernel-module-88x2bu-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d61078bb36f44f06beb9c041f97f03c9
+SHA256sum: c305f8407a315908fd4837eae616e728722b64ec75e21ef6b08e710fd91abe80
+Size: 666
+Filename: rt8822bu_1.0.0.9-r0_dm900.ipk
+Source: rt8822bu_1.0.0.9.bb
+Description: Ralink 88x2BU v1.0.0.9
+OE: rt8822bu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtk-btusb-dbg
+Version: git-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7164b6013a700fad573d21e94762c089
+SHA256sum: 573e49fef5a2540cdde79cda36341906071ca93b54678c902e3978f39a9bebb7
+Size: 704
+Filename: rtk-btusb-dbg_git-r0_dm900.ipk
+Source: rtk-btusb_git.bb
+Description: Realtek Bluetooth USB driver - Debugging files
+OE: rtk-btusb
+HomePage: https://www.realtek.com/
+License: GPLv2+
+Priority: optional
+
+Package: rtk-btusb-dev
+Version: git-r0
+Depends: rtk-btusb (= git-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-rtk-btusb-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2cfae2e796928ea11f67e0aedb91e5a5
+SHA256sum: a42e8d5c127c07cace9985bda9e54f3c022f6d9dbb61d7d57ac52ae45cf2e66c
+Size: 770
+Filename: rtk-btusb-dev_git-r0_dm900.ipk
+Source: rtk-btusb_git.bb
+Description: Realtek Bluetooth USB driver - Development files
+OE: rtk-btusb
+HomePage: https://www.realtek.com/
+License: GPLv2+
+Priority: optional
+
+Package: rtk-btusb
+Version: git-r0
+Depends: kernel-module-rtk-btusb-3.14-1.17-dm900
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9fad4aa88e1fd1a4b6b1bd0cc7c1b7a3
+SHA256sum: 7ba946e90da0c30f4fe95477a0747e04389d3f639c89b365f8daa4442d24ccc5
+Size: 664
+Filename: rtk-btusb_git-r0_dm900.ipk
+Source: rtk-btusb_git.bb
+Description: Realtek Bluetooth USB driver
+OE: rtk-btusb
+HomePage: https://www.realtek.com/
+License: GPLv2+
+Priority: optional
+
+Package: rtl8188eu-dbg
+Version: 1.0-.0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8a46bb18efabd179b0a5f30bdd0102c2
+SHA256sum: 7b07827174f24e5179bdccc6a9edc12784c712fd9107732273125573bf85bacc
+Size: 708
+Filename: rtl8188eu-dbg_1.0-.0_dm900.ipk
+Source: rtl8188eu.bb
+Description: rtl8188eu version 1.0-.0 - Debugging files
+OE: rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8188eu-dev
+Version: 1.0-.0
+Depends: rtl8188eu (= 1.0-.0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8188eu-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1fd7eda1dbeb36784f8e2d49cc71c4c7
+SHA256sum: 6ecb32e1373afa2300da8416912294d6cd8f451d2dff3c8bede860930138a55c
+Size: 774
+Filename: rtl8188eu-dev_1.0-.0_dm900.ipk
+Source: rtl8188eu.bb
+Description: rtl8188eu version 1.0-.0 - Development files
+OE: rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8188eu
+Version: 1.0-.0
+Depends: kernel-module-8188eu-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2bda88c8d6dcb1c68487f808c80a3c09
+SHA256sum: f65f2f736407d24884bc57e5e9f3afb9f55e5d0f10f7badff93daa97795e0c80
+Size: 674
+Filename: rtl8188eu_1.0-.0_dm900.ipk
+Source: rtl8188eu.bb
+Description: rtl8188eu version 1.0-.0
+OE: rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8189es-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eb391e82e400e0ebd9fe2dd8b047b0d1
+SHA256sum: 5f2a97406a11bf24e70b76438b8ac7754b52bbeedfefe0f2e548c3d51d825a8f
+Size: 694
+Filename: rtl8189es-dbg_1.0-r0_dm900.ipk
+Source: rtl8189es_1.0.bb
+Description: Ralink 8189es v1.0 - Debugging files
+OE: rtl8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtl8189es-dev
+Version: 1.0-r0
+Depends: rtl8189es (= 1.0-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8189es-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1145817d4b5a0695412715c9c8bfebd
+SHA256sum: e73d5222530bbd4a518d5936f0c72d766e9bc2c1622a328c18dc7a5b684f1d7d
+Size: 760
+Filename: rtl8189es-dev_1.0-r0_dm900.ipk
+Source: rtl8189es_1.0.bb
+Description: Ralink 8189es v1.0 - Development files
+OE: rtl8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtl8189es
+Version: 1.0-r0
+Depends: kernel-module-8189es-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 396f6c85ceee5f16ad30c1b9e5c72ba0
+SHA256sum: 04f3ca7aeff2229f4e61e70e87a11e33f5bb7f5030a390856a3ac555eb25b8e1
+Size: 656
+Filename: rtl8189es_1.0-r0_dm900.ipk
+Source: rtl8189es_1.0.bb
+Description: Ralink 8189es v1.0
+OE: rtl8189es
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtl8192cu-dbg
+Version: 4.0.2-9000
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7469bf1b6524a417eade96e19d5d7c6b
+SHA256sum: e553d056f76ffa3e9af11cb9b2f0cf869f94bd2e85a71ed40ec4f91de77593c6
+Size: 714
+Filename: rtl8192cu-dbg_4.0.2-9000_dm900.ipk
+Source: rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices - Debugging files
+OE: rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192cu-dev
+Version: 4.0.2-9000
+Depends: rtl8192cu (= 4.0.2-9000)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8192cu-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 22ae1d3de3ddf3cfa1428eb259ff7db4
+SHA256sum: 65bee4d42c627a888706d1206fbac0768d77fe7675a32021b8e145cc035e3b18
+Size: 780
+Filename: rtl8192cu-dev_4.0.2-9000_dm900.ipk
+Source: rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices - Development files
+OE: rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192cu
+Version: 4.0.2-9000
+Depends: kernel-module-8192cu-3.14-1.17-dm900
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce52fd36607eb45912c1ecb8356f3964
+SHA256sum: 773bb1d150d32d90e8460fd9691bd452f7d081eb3614e26d21a113e12c8aab48
+Size: 678
+Filename: rtl8192cu_4.0.2-9000_dm900.ipk
+Source: rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices
+OE: rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192eu-dbg
+Version: 1.0+git23+deae95d-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ffdcbc4cae91e7caf0468f57b83703f1
+SHA256sum: 900652657bd2fcf124a9f1ce3b234b98cadb5a7279ea392778f4c55f8e941e40
+Size: 718
+Filename: rtl8192eu-dbg_1.0+git23+deae95d-r0_dm900.ipk
+Source: rtl8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Debugging files
+OE: rtl8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192eu-dev
+Version: 1.0+git23+deae95d-r0
+Depends: rtl8192eu (= 1.0+git23+deae95d-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8192eu-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d751a8fc5b0dd30abeca38b0dd2b526f
+SHA256sum: b0f9252ae6520cd4d66c308eff7d8729de7d7d3c6f7d16aa74deecb2e7cc94c1
+Size: 784
+Filename: rtl8192eu-dev_1.0+git23+deae95d-r0_dm900.ipk
+Source: rtl8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Development files
+OE: rtl8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192eu
+Version: 1.0+git23+deae95d-r0
+Depends: kernel-module-8192eu-3.14-1.17-dm900
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ed5ddc02c1243df5acf40e5829e4041b
+SHA256sum: 7f11eae8a0cb8c380f9bee337322e6d63c09fcd608c3f0c0a1b092845c4cada4
+Size: 682
+Filename: rtl8192eu_1.0+git23+deae95d-r0_dm900.ipk
+Source: rtl8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu
+OE: rtl8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192fu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a3289e1b5f0aedea16c9d07930a6175c
+SHA256sum: 8836502684e341ea4c74899e9750624851970025f7cc19b97f82f8a3eee2c82a
+Size: 708
+Filename: rtl8192fu-dbg_1.0-r0_dm900.ipk
+Source: rtl8192fu.bb
+Description: Driver for Realtek USB wireless device 8192fu - Debugging files
+OE: rtl8192fu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192fu-dev
+Version: 1.0-r0
+Depends: rtl8192fu (= 1.0-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8192fu-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a35073f352a6f2885eb64f37cf548f67
+SHA256sum: a664eb64e910428076334fa957478d331f91eb17faf6597a712bdd4f158128b1
+Size: 774
+Filename: rtl8192fu-dev_1.0-r0_dm900.ipk
+Source: rtl8192fu.bb
+Description: Driver for Realtek USB wireless device 8192fu - Development files
+OE: rtl8192fu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192fu
+Version: 1.0-r0
+Depends: kernel-module-8192fu-3.14-1.17-dm900
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e858285db2d740aa57611191691ffde
+SHA256sum: 5e62ec6f5e860c91c9e2149ad7981fb6c9258ab6bb93faeb55452c96d2996942
+Size: 668
+Filename: rtl8192fu_1.0-r0_dm900.ipk
+Source: rtl8192fu.bb
+Description: Driver for Realtek USB wireless device 8192fu
+OE: rtl8192fu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8723a-dbg
+Version: 4.1.6-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4d9232ad1cc65ae9c21b0e44d6911170
+SHA256sum: beb37a3e62126bfa69a85df809920250c978b2e558e1097d4e6fa21377d73476
+Size: 698
+Filename: rtl8723a-dbg_4.1.6-r0_dm900.ipk
+Source: rtl8723a_4.1.6.bb
+Description: Realtek 8723A v1.0 - Debugging files
+OE: rtl8723a
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtl8723a-dev
+Version: 4.1.6-r0
+Depends: rtl8723a (= 4.1.6-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8723au-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 82b94d53c25ab6dba3f41cb340243390
+SHA256sum: dc62f8c7cbaf46f32c3cdb6f37af37a9d6f91d312528961c6e3d40f89e6215bb
+Size: 762
+Filename: rtl8723a-dev_4.1.6-r0_dm900.ipk
+Source: rtl8723a_4.1.6.bb
+Description: Realtek 8723A v1.0 - Development files
+OE: rtl8723a
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtl8723a
+Version: 4.1.6-r0
+Depends: kernel-module-8723au-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9b873f569a1ffcf4d02a3a3157bfe94
+SHA256sum: d2a36c58a2fe64d948de67ebb3dc3c617edde041470c1d5763ed986cf1f9d22d
+Size: 660
+Filename: rtl8723a_4.1.6-r0_dm900.ipk
+Source: rtl8723a_4.1.6.bb
+Description: Realtek 8723A v1.0
+OE: rtl8723a
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtl8723bs-dbg
+Version: 4.4.1-3.14-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c231447cfde6b39534b9401c8cfa55e2
+SHA256sum: 4e9e47daaa55ef486e67af0416f545d59d02372a5a3e5b0e7e503a335368f0bc
+Size: 722
+Filename: rtl8723bs-dbg_4.4.1-3.14-r0_dm900.ipk
+Source: rtl8723bs_4.4.1.bb
+Description: Driver for Realtek 8723BS wireless/bluetooth devices - Debugging files
+OE: rtl8723bs
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8723bs-dev
+Version: 4.4.1-3.14-r0
+Depends: rtl8723bs (= 4.4.1-3.14-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-r8723bs-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e85f60a35e2e828680013c9b8674e6d3
+SHA256sum: 8cfada9d090a5bd61e890412120e542c4d5db994d087e48cfd283a01f871d9f9
+Size: 788
+Filename: rtl8723bs-dev_4.4.1-3.14-r0_dm900.ipk
+Source: rtl8723bs_4.4.1.bb
+Description: Driver for Realtek 8723BS wireless/bluetooth devices - Development files
+OE: rtl8723bs
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8723bs
+Version: 4.4.1-3.14-r0
+Depends: kernel-module-r8723bs-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a1c70f04bd5c146fa7770a9af3dfab0
+SHA256sum: c8e9861aa20e0af9eec5f98878b53529d4d83296580bc5c39c83d8b727f5494a
+Size: 688
+Filename: rtl8723bs_4.4.1-3.14-r0_dm900.ipk
+Source: rtl8723bs_4.4.1.bb
+Description: Driver for Realtek 8723BS wireless/bluetooth devices
+OE: rtl8723bs
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8814au-dbg
+Version: 4.3.21-r0
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 02cc39acf5452272d01a5d4906e668e7
+SHA256sum: 95a7619c0b81fbe3e5b0d32f59c3a26252002feec38ba28d47ac22e03abe252c
+Size: 698
+Filename: rtl8814au-dbg_4.3.21-r0_dm900.ipk
+Source: rtl8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21 - Debugging files
+OE: rtl8814au
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtl8814au-dev
+Version: 4.3.21-r0
+Depends: rtl8814au (= 4.3.21-r0)
+Recommends: kernel-3.14-1.17-dm900-dev, kernel-module-8814au-3.14-1.17-dm900-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 435ff64d1f8a3f6968660e7ee3b54c5e
+SHA256sum: c9986219441ab4f71d20f63e82f5d0d31b988d5540f5973a10e26528a3dc145c
+Size: 764
+Filename: rtl8814au-dev_4.3.21-r0_dm900.ipk
+Source: rtl8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21 - Development files
+OE: rtl8814au
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: rtl8814au
+Version: 4.3.21-r0
+Depends: kernel-module-8814au-3.14-1.17-dm900
+Section: kernel/modules
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8da049d108b6ae315a62ca18f3b8dc92
+SHA256sum: db824816b8cc45067b25fb1bcc5205a1d14cbfc6d5e32bc45a11452299f84fe3
+Size: 662
+Filename: rtl8814au_4.3.21-r0_dm900.ipk
+Source: rtl8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21
+OE: rtl8814au
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: satipclient-dbg
+Version: 1.0+git79+50d92c8-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8dec556a3c8dd7b52c463d009be7f21d
+SHA256sum: 6cb381c25b1782e19c37020a8fe2f9b3992d3f56f82ca421509c812d7b7043bd
+Size: 290904
+Filename: satipclient-dbg_1.0+git79+50d92c8-r0_dm900.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Debugging files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient-dev
+Version: 1.0+git79+50d92c8-r0
+Depends: satipclient (= 1.0+git79+50d92c8-r0)
+Recommends: glibc-dev, initscripts-dev, libgcc-dev, libstdc++-dev, update-rc.d-dev
+Section: devel
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8aedcd1a9e678fd1ddb7a527cae2310f
+SHA256sum: d8e38a8ccc99c80b45053d840dc61b957742e55250170f2f9ac64c44ed17aca1
+Size: 752
+Filename: satipclient-dev_1.0+git79+50d92c8-r0_dm900.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Development files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient
+Version: 1.0+git79+50d92c8-r0
+Depends: libc6 (>= 2.34), libgcc1 (>= 11.2.0), libstdc++6 (>= 11.2.0)
+Recommends: update-rc.d
+Section: base
+Architecture: dm900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f117da94bf985a0a4b96f217a457ca58
+SHA256sum: 7f6900952c7ad4c304a79ea710f4058e97ea4a6bf5f9d91337d6700749b53ef0
+Size: 27528
+Filename: satipclient_1.0+git79+50d92c8-r0_dm900.ipk
+Source: satipclient.bb
+Description: satip client using vtuner
+OE: satipclient
+License: GPLv2
 Priority: optional
 
 Package: shadow-securetty-dbg
