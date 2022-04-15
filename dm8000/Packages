@@ -185,9 +185,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: dm8000
 Maintainer: Openpli Developers
-MD5Sum: 174f4044d01afbc091d2da410071aed2
-SHA256sum: 16742e198118fde6c6cb6b864181e04cf0b4614184d1fa405e25d31d782b4f64
-Size: 17248
+MD5Sum: 4b8b05d9b6005f1f65c4330edaa5931b
+SHA256sum: 6a4edbe40b3abf90494d12b98aa1f53830e1d596dd1e7f1ba863036446be4bac
+Size: 17272
 Filename: dm8000-branding-dbg_git42+4acb6b3-r0_dm8000.ipk
 Source: dm8000-branding.bb
 Description: dm8000-branding version gitAUTOINC+4acb6b360c-r0 - Debugging files
@@ -202,8 +202,8 @@ Recommends: glibc-dev, python-dev
 Section: devel
 Architecture: dm8000
 Maintainer: Openpli Developers
-MD5Sum: b53be51c41cb40a8f3ca195d9f139f7f
-SHA256sum: f144822cfe53179d4c3f9d389f1c735b7561040732589195065c7fbfd6803669
+MD5Sum: 7d5404128d5bbe931b422bc427a1f6ff
+SHA256sum: e0200c9bff36fe23152884a2e390a818993df413db937549570360b66a78ce71
 Size: 720
 Filename: dm8000-branding-dev_git42+4acb6b3-r0_dm8000.ipk
 Source: dm8000-branding.bb
@@ -218,9 +218,9 @@ Depends: libc6 (>= 2.34)
 Section: base
 Architecture: dm8000
 Maintainer: Openpli Developers
-MD5Sum: 9a8f0478c87610e4d145da1a955a6b3c
-SHA256sum: 51401ea3176a455766d69507d9f94493b9b4c24e50a4b9ed0362f260dae155d4
-Size: 5454
+MD5Sum: 199729c9a37d00a928a11d2815442759
+SHA256sum: 76ac7353cd1ecab264503ad849a564de5bbf25892510f3aa300f0bdb079b4893
+Size: 5460
 Filename: dm8000-branding_git42+4acb6b3-r0_dm8000.ipk
 Source: dm8000-branding.bb
 Description: dm8000-branding version gitAUTOINC+4acb6b360c-r0
@@ -251,9 +251,9 @@ Depends: dreambox-secondstage-dm8000, kernel-3.2-dm8000
 Section: base
 Architecture: dm8000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: baaf2ba6870ec02516b02f82784047d0
-SHA256sum: bccf9ee24328e607e9bc0aaea64373c1780d896ef8e80f6c1d9fe49cfa973722
-Size: 2405286
+MD5Sum: b0f3c11eca5bcc769dc39f8ada40b884
+SHA256sum: 2a482a5da21d774b57af668c0b1bc27626c196f2255fcd21b92e010d0258682a
+Size: 2405288
 Filename: dreambox-dvb-modules-dm8000_3.2-20140604a-r0_dm8000.ipk
 Source: dreambox-dvb-modules-dm8000_3.2-20140604a.bb
 Description: Hardware drivers for Dreambox
@@ -282,13 +282,62 @@ Depends: mtd-utils
 Section: base
 Architecture: dm8000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: abdb3df38291690b162c40e713578ce4
-SHA256sum: f82ecfc3457aa63aaef6963c56a795cc78e51dc674c7f4a2e65a40b2a979b52b
+MD5Sum: 9b881a07e0af0c285acc4f34724c405f
+SHA256sum: fa4e069e2c3bab3d2ec8104b6fcbdbd36b71e3bc4c0d21030ced5c725ef22a18
 Size: 149896
 Filename: dreambox-secondstage-dm8000_84-r0_dm8000.ipk
 Source: dreambox-secondstage-dm8000_84.bb
 Description: Dreambox second stage bootloader
 OE: dreambox-secondstage-dm8000
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-grautec-dbg
+Version: 1.0+git4+b01c4b0-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: dm8000
+Maintainer: grautec
+MD5Sum: ecc43469c7e95cccab5a799d9b5cb207
+SHA256sum: 6772ae6c1d6842735a05640dd8551c1619bfffdf47011a6c8d3a902c28001d0e
+Size: 18356
+Filename: enigma2-plugin-extensions-grautec-dbg_1.0+git4+b01c4b0-r0_dm8000.ipk
+Source: enigma2-plugin-extensions-grautec.bb
+Description: drivers for grautec oleed display for dreambox - Debugging files
+OE: enigma2-plugin-extensions-grautec
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-grautec-dev
+Version: 1.0+git4+b01c4b0-r0
+Depends: enigma2-plugin-extensions-grautec (= 1.0+git4+b01c4b0-r0)
+Recommends: glibc-dev
+Section: devel
+Architecture: dm8000
+Maintainer: grautec
+MD5Sum: 213b159f108ed3baaf48e9b44139289a
+SHA256sum: 54f8a4fbd817b3777a4eb2785628b442310e0149e634b30eef401eac763091d6
+Size: 718
+Filename: enigma2-plugin-extensions-grautec-dev_1.0+git4+b01c4b0-r0_dm8000.ipk
+Source: enigma2-plugin-extensions-grautec.bb
+Description: drivers for grautec oleed display for dreambox - Development files
+OE: enigma2-plugin-extensions-grautec
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-grautec
+Version: 1.0+git4+b01c4b0-r0
+Depends: libc6 (>= 2.34)
+Section: base
+Architecture: dm8000
+Maintainer: grautec
+MD5Sum: 30f0e7795157beb5aea7056375aad383
+SHA256sum: da42d1267d20228662ba62725357faa29788db70b405369723767c5f4304697a
+Size: 28926
+Filename: enigma2-plugin-extensions-grautec_1.0+git4+b01c4b0-r0_dm8000.ipk
+Source: enigma2-plugin-extensions-grautec.bb
+Description: drivers for grautec oleed display for dreambox
+OE: enigma2-plugin-extensions-grautec
 License: GPLv2+
 Priority: required
 
